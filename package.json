@@ -27,7 +27,17 @@
     "release": "npm run build:prod:all  && npm run package"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@angular/animations": "^10.0.0 || ^11.0.0-0",
+    "@angular/cdk": "~10.2.0-rc.0-sha-7ec514be9",
+    "@angular/forms": "^10.0.0 || ^11.0.0-0",
+    "@angular/material": "~10.2.0-rc.0-sha-7ec514be9",
+    "@fortawesome/angular-fontawesome": "^0.7.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0"
+  },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1001.1",
     "@angular/animations": "^10.1.1",
